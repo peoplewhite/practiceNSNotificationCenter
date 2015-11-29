@@ -13,6 +13,7 @@
 		142D8E2A1C0AEC770093FED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142D8E281C0AEC770093FED3 /* Main.storyboard */; };
 		142D8E2C1C0AEC770093FED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142D8E2B1C0AEC770093FED3 /* Assets.xcassets */; };
 		142D8E2F1C0AEC770093FED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142D8E2D1C0AEC770093FED3 /* LaunchScreen.storyboard */; };
+		142D8E381C0AECA40093FED3 /* SimpleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 142D8E371C0AECA40093FED3 /* SimpleModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		142D8E2B1C0AEC770093FED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		142D8E2E1C0AEC770093FED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		142D8E301C0AEC770093FED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142D8E361C0AECA40093FED3 /* SimpleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleModel.h; sourceTree = "<group>"; };
+		142D8E371C0AECA40093FED3 /* SimpleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				142D8E231C0AEC770093FED3 /* AppDelegate.m */,
 				142D8E251C0AEC770093FED3 /* ViewController.h */,
 				142D8E261C0AEC770093FED3 /* ViewController.m */,
+				142D8E361C0AECA40093FED3 /* SimpleModel.h */,
+				142D8E371C0AECA40093FED3 /* SimpleModel.m */,
 				142D8E281C0AEC770093FED3 /* Main.storyboard */,
 				142D8E2B1C0AEC770093FED3 /* Assets.xcassets */,
 				142D8E2D1C0AEC770093FED3 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				142D8E271C0AEC770093FED3 /* ViewController.m in Sources */,
 				142D8E241C0AEC770093FED3 /* AppDelegate.m in Sources */,
 				142D8E211C0AEC770093FED3 /* main.m in Sources */,
+				142D8E381C0AECA40093FED3 /* SimpleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
