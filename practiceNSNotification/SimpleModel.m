@@ -32,5 +32,10 @@
 }
 
 
+- (void)setDefaultName:(NSString *)strSetDefaultName {
+  _strName = strSetDefaultName;
+  
+}
+
 
 @end

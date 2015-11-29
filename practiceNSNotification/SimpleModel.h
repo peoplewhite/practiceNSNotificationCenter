@@ -13,5 +13,6 @@
 + (id)sharedInstance;
 
 @property (nonatomic, strong) NSString *strName;
+- (void)setDefaultName:(NSString *)strSetDefaultName;
 
 @end

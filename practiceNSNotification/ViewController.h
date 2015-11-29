@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *labName;
+@property (weak, nonatomic) IBOutlet UIButton *btnChangeName;
 
 @end
 
